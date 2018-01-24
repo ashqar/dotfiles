@@ -8,7 +8,9 @@ filetype off
 nmap 0 ^
 
 " Copy whole file
-map <Leader> cf ggVG"*y
+map <Leader>cf ggVG"*y
+" Replace whole file with whatever in the system tray
+map <Leader>pf ggVG"*p
 
 " CtrlP + Ctags
 nnoremap <leader>. :CtrlPTag<cr>
@@ -29,7 +31,7 @@ nmap k gk
 
 " Nerdtree
 map <F2> :NERDTreeToggle<CR>
-map <Tab> :NERDTreeFind<CR>
+map <Tab> :NERDTreeToggle %:p:h<CR>
 
 " RSpec
 map <Leader>t :call RunCurrentSpecFile()<CR>

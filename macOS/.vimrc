@@ -35,11 +35,11 @@ set term=screen-256color
 
 set cursorline                                               " Highlight current cursor line
 set cursorcolumn                                             " Highlight current cursor column
-hi CursorColumn cterm=NONE ctermbg=black                     " Set a vertical bar for the cursor
+" hi CursorColumn cterm=NONE ctermbg=black                     " Set a vertical bar for the cursor
 
 set hlsearch
 set incsearch
-hi Search ctermfg=green ctermbg=NONE cterm=underline         " Search results are coloured and underlined
+hi Search ctermfg=white ctermbg=blue cterm=NONE         " Search results are coloured and underlined
 
 " ---------------------------------------------------------------------
 "                              vim Settings

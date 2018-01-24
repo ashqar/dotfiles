@@ -9,7 +9,7 @@ let g:mapleader = ","
 let base16colorspace=256
 
 " Airline
-let g:airline_theme                      = 'wombat' " base16_pop, base16_summerfruit, simple
+let g:airline_theme                      = 'cobalt2' " base16_pop, base16_summerfruit, simple
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts            = 1
 
@@ -45,7 +45,7 @@ let g:syntastic_check_on_open            = 1
 let g:syntastic_check_on_wq              = 0
 let g:syntastic_javascript_checkers      = ['jshint']
 let g:syntastic_html_checkers            = ['jshint']
-let g:syntastic_ruby_checkers            = ['rubocop']
+" let g:syntastic_ruby_checkers            = ['rubocop']
 let g:syntastic_html_tidy_ignore_errors  = [
       \  '<html> attribute "lang" lacks value',
       \  '<a> attribute "href" lacks value',
