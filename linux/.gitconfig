@@ -16,9 +16,9 @@
   pretty = %Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset
   graph = true
 [github]
-  user = zlahham
+  user = ashqar
 [push]
   default = simple
 [user]
-  email = zlahham@gmail.com
-  name = Zaid Al Lahham
+  email = mo.ashqar@gmail.com
+  name = Mohammad Ashqar
