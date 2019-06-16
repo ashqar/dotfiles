@@ -1,5 +1,6 @@
 alias ls='ls -GFh'
 alias ll='ls -lAFh'                         # Long ls implementation
+alias lls='ls -lAFhS'
 alias less='less -FSRXc'                    # Preferred 'less' implementation
 cd() { builtin cd "$@"; ls; }               # Always list directory contents upon 'cd'
 mcd () { mkdir -p "$1" && cd "$1"; }        # mcd: Makes new Dir and jumps inside
@@ -19,3 +20,4 @@ alias zshconfig="vim ~/.zshrc"
 alias sourcezsh="source ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
 alias sourcevim="source ~/.vimrc"
+alias bex='bundle exec'

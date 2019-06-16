@@ -8,6 +8,11 @@ Metrics/ClassLength:
   Enabled: false
 Metrics/LineLength:
   Enabled: false
+# Style/StringLiterals:
+  # EnforcedStyle: double_quotes
+Style/BlockLength:
+  Exclude:
+    - 'spec/**/*.rb'
 
 AllCops:
   TargetRubyVersion: 2.2

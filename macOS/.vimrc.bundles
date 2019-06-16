@@ -11,6 +11,7 @@ call vundle#begin()
 
 " Aesthetics
 Plugin 'morhetz/gruvbox'                                  " Colour scheme
+Plugin 'rhysd/vim-color-spring-night'                     " Another colour scheme
 Plugin 'vim-scripts/Tabular'                              " Line up text in a tabular format :Tab /=
 Plugin 'scrooloose/syntastic'                             " Syntax checker
 Plugin 'jtratner/vim-flavored-markdown'                   " Highlighting for Markdown snippets
@@ -54,6 +55,7 @@ Plugin 'tpope/vim-haml'                                   " Syntax highlighting 
 Plugin 'tpope/vim-rails'                                  " Rails support
 Plugin 'vim-ruby/vim-ruby'                                " Ruby support
 Plugin 'thoughtbot/vim-rspec'                             " Runs RSpec within vim
+Plugin 'kchmck/vim-coffee-script'
 
 " Searching
 Plugin 'craigemery/vim-autotag'                           " ctags support for vim

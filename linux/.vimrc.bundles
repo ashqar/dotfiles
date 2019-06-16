@@ -54,6 +54,9 @@ Plugin 'tpope/vim-haml'                                   " Syntax highlighting 
 Plugin 'tpope/vim-rails'                                  " Rails support
 Plugin 'vim-ruby/vim-ruby'                                " Ruby support
 Plugin 'thoughtbot/vim-rspec'                             " Runs RSpec within vim
+Plugin 'kchmck/vim-coffee-script'                         " syntax highlighting for coffee files
+Plugin 'slim-template/vim-slim.git'                       " syntax highlighting for slim views
+
 
 " Searching
 Plugin 'craigemery/vim-autotag'                           " ctags support for vim
