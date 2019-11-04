@@ -20,3 +20,4 @@ alias sourcezsh="source ~/.zshrc"
 alias vimconfig="vim ~/.vimrc"
 alias sourcevim="source ~/.vimrc"
 alias bex='bundle exec'
+alias dcu=docker-compose up -d && docker attach -args

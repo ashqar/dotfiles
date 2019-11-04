@@ -11,7 +11,7 @@ fi
 # I also like steeef, ys
 ZSH_THEME="spaceship"
 
-plugins=(apt git npm rails rbenv zsh-syntax-highlighting)
+plugins=(git npm rails zsh-syntax-highlighting)
 
 
 #initialize Z (https://github.com/rupa/z)
@@ -87,12 +87,10 @@ source ~/.env
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
-
 alias ll='ls -lAFh'                         # Long ls implementation
 
 # Do not share history between tmux windows
 setopt noincappendhistory
 setopt nosharehistory
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

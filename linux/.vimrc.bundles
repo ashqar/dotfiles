@@ -57,10 +57,19 @@ Plugin 'thoughtbot/vim-rspec'                             " Runs RSpec within vi
 Plugin 'kchmck/vim-coffee-script'                         " syntax highlighting for coffee files
 Plugin 'slim-template/vim-slim.git'                       " syntax highlighting for slim views
 
+" Nodejs
+Plugin 'leafgarland/typescript-vim'
 
 " Searching
 Plugin 'craigemery/vim-autotag'                           " ctags support for vim
 Plugin 'ctrlpvim/ctrlp.vim'                               " Fuzzy searching in Vim
+Plugin 'mileszs/ack.vim'
+
+Plugin 'junegunn/fzf.vim'
+
+if executable('ag')
+  let g:ackprg = 'ag --vimrep'
+endif
 
 call vundle#end()
 filetype on

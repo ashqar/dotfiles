@@ -139,3 +139,5 @@ endif
 if filereadable(expand("~/.vimrc.mappings"))
   source ~/.vimrc.mappings
 endif
+
+set rtp+=~/.fzf
